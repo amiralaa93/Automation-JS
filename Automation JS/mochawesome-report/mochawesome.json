@@ -1,0 +1,215 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-09-08T09:53:44.000Z",
+    "end": "2021-09-08T09:54:24.312Z",
+    "duration": 40312,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "893041d9-71d1-4082-b4f4-3bc1c39f7339",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "5df98d40-15e4-41cc-90df-617beb6e6364",
+          "title": "Adjust Automation Task",
+          "fullFile": "C:\\Users\\L\\Downloads\\Adjust Automation Task\\Adjust_Automation_Task\\test\\InvalidLoginPage.js",
+          "file": "\\Adjust_Automation_Task\\test\\InvalidLoginPage.js",
+          "beforeHooks": [
+            {
+              "title": "\"before each\" hook in \"Adjust Automation Task\"",
+              "fullTitle": "Adjust Automation Task \"before each\" hook in \"Adjust Automation Task\"",
+              "timedOut": false,
+              "duration": 1,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//Actions performed before test\nInvalidLoginPage.go_to_url();",
+              "err": {},
+              "uuid": "37d67e35-bc2e-4752-a947-9d81d194b35e",
+              "parentUUID": "5df98d40-15e4-41cc-90df-617beb6e6364",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after each\" hook in \"Adjust Automation Task\"",
+              "fullTitle": "Adjust Automation Task \"after each\" hook in \"Adjust Automation Task\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//Actions to be performed after test\nInvalidLoginPage.close()",
+              "err": {},
+              "uuid": "1a71c38d-b931-4c75-8aa0-a79f3c0e4bd9",
+              "parentUUID": "5df98d40-15e4-41cc-90df-617beb6e6364",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Invalid Login Scenario",
+              "fullTitle": "Adjust Automation Task Invalid Login Scenario",
+              "timedOut": false,
+              "duration": 20003,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//Test steps\nInvalidLoginPage.enter_username('standard');\nInvalidLoginPage.sleep(5000);\nInvalidLoginPage.enter_password('secret_sauce');\nInvalidLoginPage.sleep(5000);\nInvalidLoginPage.click_login_btn();\nInvalidLoginPage.sleep(10000);",
+              "err": {},
+              "uuid": "0b881844-7ed2-45a9-8ae1-3f2e07402cc9",
+              "parentUUID": "5df98d40-15e4-41cc-90df-617beb6e6364",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "0b881844-7ed2-45a9-8ae1-3f2e07402cc9"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 20003,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 50000
+        },
+        {
+          "uuid": "3cef1616-e30b-452d-bc17-6085678cad4c",
+          "title": "Adjust Automation Task",
+          "fullFile": "C:\\Users\\L\\Downloads\\Adjust Automation Task\\Adjust_Automation_Task\\test\\validLoginPage.js",
+          "file": "\\Adjust_Automation_Task\\test\\validLoginPage.js",
+          "beforeHooks": [
+            {
+              "title": "\"before each\" hook in \"Adjust Automation Task\"",
+              "fullTitle": "Adjust Automation Task \"before each\" hook in \"Adjust Automation Task\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//Actions performed before test\nvalidLoginPage.go_to_url();",
+              "err": {},
+              "uuid": "742a3e28-75ad-408c-87ac-3fcfd71f9195",
+              "parentUUID": "3cef1616-e30b-452d-bc17-6085678cad4c",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after each\" hook in \"Adjust Automation Task\"",
+              "fullTitle": "Adjust Automation Task \"after each\" hook in \"Adjust Automation Task\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//Actions to be performed after test\nvalidLoginPage.close();",
+              "err": {},
+              "uuid": "c3f1a586-9576-4205-9dbe-2abca9b0725a",
+              "parentUUID": "3cef1616-e30b-452d-bc17-6085678cad4c",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Valid Login Scenario",
+              "fullTitle": "Adjust Automation Task Valid Login Scenario",
+              "timedOut": false,
+              "duration": 20000,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//Test steps\nvalidLoginPage.enter_username('standard_user');\nvalidLoginPage.sleep(5000);\nvalidLoginPage.enter_password('secret_sauce');\nvalidLoginPage.sleep(5000);\nvalidLoginPage.click_login_btn();\nvalidLoginPage.sleep(10000);",
+              "err": {},
+              "uuid": "f9cc9801-3c7d-4486-a729-3c81c01bac5b",
+              "parentUUID": "3cef1616-e30b-452d-bc17-6085678cad4c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f9cc9801-3c7d-4486-a729-3c81c01bac5b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 20000,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 50000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 60000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.3.2"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.2.0"
+    }
+  }
+}
